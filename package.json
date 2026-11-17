@@ -1,0 +1,29 @@
+{
+  "name": "midnight-circuit-hyper-elements-kit",
+  "version": "1.0.0",
+  "description": "Midnight Circuit \u2014 a hackathon event kit for Hyper Elements: one theme + shared components render an invitation email, web page, PDF e-ticket and social card.",
+  "main": "index.js",
+  "scripts": {
+    "render": "tsx src/render.tsx",
+    "screenshot": "tsx src/screenshot.tsx",
+    "build": "npm run render && npm run screenshot"
+  },
+  "keywords": [],
+  "author": "M S Abhishek",
+  "license": "MIT",
+  "dependencies": {
+    "@hyper-elements/react": "^0.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@hyper-elements/cli": "^0.2.10",
+    "@hyper-elements/email-clients": "^0.4.16",
+    "@react-pdf/renderer": "^4.9.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "playwright-core": "^1.65.1",
+    "satori": "^0.33.5",
+    "tsx": "^4.23.15"
+  },
+  "type": "module"
+}
