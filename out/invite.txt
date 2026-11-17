@@ -1,0 +1,99 @@
+Midnight Circuit · Vol. 04
+
+Bengaluru — Est. 2023
+
+[A night skyline under a crescent moon, drawn for Midnight Circuit]
+
+Registrations open
+
+MIDNIGHT CIRCUIT
+
+A 24-hour hackathon, shot in one take.
+
+Fri 11 Dec 2026 · Doors 18:00 · The Old Projection House, MG Road
+300 hackers · 75 teams · 24 hours
+
+One venue, one night, no retakes. Three hundred hackers walk into a century-old projection house at dusk; the best of them walk out at dawn with a film, a product, and their share of ₹4,00,000. Bring a laptop and a sleeping bag. We bring the coffee, the mentors and the midnight screening.
+
+Claim your seat (https://midnightcircuit.example.com/register)
+
+Watch last year (https://midnightcircuit.example.com)
+
+The running order
+
+SEVEN FRAMES, 24 HOURS
+
+Time | Running order
+18:00 | Doors — registration, wristbands, first coffee
+19:00 | Opening frame — theme reveal and the rules of the night
+20:00 | Teams lock. Hacking begins.
+02:00 | The midnight screening — snacks, stretch, a short film
+08:00 | Sunrise stand-up — mentors walk the floor
+16:00 | Last reel — code freeze warnings begin
+18:00 | Code freeze. Demos, judging and the closing ceremony
+
+Prize tracks
+
+THREE TRACKS, ₹4,00,000
+
+The Heist
+
+Fintech and payments. Move money like you stole the scene.
+
+₹1,50,000
+
+The Sequel
+
+AI agents that finish what the first film started.
+
+₹1,50,000
+
+Director's Cut
+
+Open theme. The boldest cut wins — design counts double.
+
+₹1,00,000
+
+In the jury box
+
+JUDGED BY PEOPLE WHO SHIP
+
+MK
+
+Meera Krishnan
+
+CTO, payments infrastructure
+
+DO
+
+Daniel Osei
+
+AI research lead
+
+PL
+
+Petra Lindqvist
+
+Design director, ex-studio
+
+Admit one — Vol. 04
+
+Midnight Circuit
+
+Prepared for {{first_name}} · Hacker Pass — full 24 hours
+
+11–12 December 2026 · The Old Projection House, MG Road
+
+MC4-2026-0117 · Row F · Seat 12
+
+---
+
+Schedule (https://midnightcircuit.example.com/#schedule) · Tracks (https://midnightcircuit.example.com/#tracks) · FAQ (https://midnightcircuit.example.com/#faq) · Code of conduct (https://midnightcircuit.example.com/#conduct)
+
+[Instagram] (https://instagram.com)
+
+[LinkedIn] (https://linkedin.com)
+
+[YouTube] (https://youtube.com)
+
+Midnight Circuit is a fictional sample event. This kit is a template — swap the data in src/event.ts and every output is yours.

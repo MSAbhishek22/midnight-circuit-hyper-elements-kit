@@ -1,0 +1,221 @@
+== Hero art (Canvas → PNG) ==
+hero.png 1200×540
+
+== Social card (Canvas → PNG) ==
+social-card.png 1200×630
+
+
+== Email — validate() ==
+info email/more-checks at root: Email client checks (what classic Outlook, Gmail, Apple Mail and other clients remove or change, from caniemail's tables and captures of the real clients) come from @hyper-elements/email-clients Fix: npm i @hyper-elements/email-clients, then validate(email, { plugins: [await emailClients()] })
+valid: true
+
+== Email — validate() with the email-client emulator ==
+info email/outlook-degraded at root.children[1].style.borderRadius: borderRadius on this Image in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[2].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[2].children[5].children[0].style.borderRadius: borderRadius on this Button in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/degraded at root.children[2].children[5].children[0].hover: hover on this Button in some email clients: no change (where it shows, keyboard focus gets it too) [outlook, outlook-com, outlook-mac] See: https://www.caniemail.com/features/css-pseudo-class-hover/
+info email/outlook-degraded at root.children[2].children[5].children[1].style.borderRadius: borderRadius on this Button in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/degraded at root.children[2].children[5].children[1].hover: hover on this Button in some email clients: no change (where it shows, keyboard focus gets it too) [outlook, outlook-com, outlook-mac] See: https://www.caniemail.com/features/css-pseudo-class-hover/
+info email/outlook-degraded at root.children[4].children[2].children[0].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[4].children[2].children[1].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[4].children[2].children[2].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[5].children[2].children[0].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[5].children[2].children[1].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[5].children[2].children[2].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[6].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/phone-styles at root: On phones, the email's phone styles don't apply: it keeps its desktop styles (Rows still stack) [gmail-app-other] See: https://www.caniemail.com/features/css-at-media/
+info email/outlook-degraded at root.children[0].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[0].children[1].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[5].children[0].style.letterSpacing: letterSpacing on this Button in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[5].children[1].style.letterSpacing: letterSpacing on this Button in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[1].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[2].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[3].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[4].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[5].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[6].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[7].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[2].children[0].children[0].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[2].children[1].children[0].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[2].children[2].children[0].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[2].children[0].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[2].children[1].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[2].children[2].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[6].children[0].children[0].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[6].children[0].children[0].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[6].children[0].children[0].children[4].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+valid: true
+
+== Email — outline() ==
+Email 600px: background #0a0a10
+  Row 600px: 2 side by side, stacked on phones
+    Text 372px "Midnight Circuit · Vol. 04"
+    Text 212px "Bengaluru — Est. 2023"
+  Image 600px [A night skyline under a crescent moon, drawn for Midnight Circuit] https://midnightcircuit.example.com/hero.png
+  Column 600px: background #15151d
+    Text 538px "Registrations open"
+    Heading h1 538px "Midnight Circuit"
+    Text 538px "A 24-hour hackathon, shot in one take."
+    Text 538px "Fri 11 Dec 2026 · Doors 18:00 · The Old Projection House, MG Road / 300 hackers…"
+    Text 538px "One venue, one night, no retakes. Three hundred hackers walk into a century-old…"
+    Row 538px: 2 side by side, stacked on phones
+      Button 262px: background #e3a82b "Claim your seat" → https://midnightcircuit.example.com/register
+      Button 264px: background rgba(255, 255, 255, 0.06) "Watch last year" → https://midnightcircuit.example.com
+  Column 600px
+    Text 600px "The running order"
+    Heading h2 600px "Seven frames, 24 hours"
+    Table 600px
+      TableRow 600px
+        TableCell 84px "Time"
+        TableCell 516px "Running order"
+      TableRow 600px
+        TableCell 84px "18:00"
+        TableCell 516px "Doors — registration, wristbands, first coffee"
+      TableRow 600px
+        TableCell 84px "19:00"
+        TableCell 516px "Opening frame — theme reveal and the rules of the night"
+      TableRow 600px
+        TableCell 84px "20:00"
+        TableCell 516px "Teams lock. Hacking begins."
+      TableRow 600px
+        TableCell 84px "02:00"
+        TableCell 516px "The midnight screening — snacks, stretch, a short film"
+      TableRow 600px
+        TableCell 84px "08:00"
+        TableCell 516px "Sunrise stand-up — mentors walk the floor"
+      TableRow 600px
+        TableCell 84px "16:00"
+        TableCell 516px "Last reel — code freeze warnings begin"
+      TableRow 600px
+        TableCell 84px "18:00"
+        TableCell 516px "Code freeze. Demos, judging and the closing ceremony"
+  Column 600px
+    Text 600px "Prize tracks"
+    Heading h2 600px "Three tracks, ₹4,00,000"
+    Column 600px
+      Row 600px: 3 side by side, stacked on phones
+        Column 190px
+          Column 190px: background #15151d
+            Heading h3 144px "The Heist"
+            Text 144px "Fintech and payments. Move money like you stole the scene."
+            Text 144px "₹1,50,000"
+        Column 189px
+          Column 189px: background #15151d
+            Heading h3 143px "The Sequel"
+            Text 143px "AI agents that finish what the first film started."
+            Text 143px "₹1,50,000"
+        Column 189px
+          Column 189px: background #15151d
+            Heading h3 143px "Director's Cut"
+            Text 143px "Open theme. The boldest cut wins — design counts double."
+            Text 143px "₹1,00,000"
+  Column 600px
+    Text 600px "In the jury box"
+    Heading h2 600px "Judged by people who ship"
+    Row 600px: 3 side by side, stacked on phones
+      Column 190px: background #15151d
+        Text 144px "MK"
+        Text 144px "Meera Krishnan"
+        Text 144px "CTO, payments infrastructure"
+      Column 189px: background #15151d
+        Text 143px "DO"
+        Text 143px "Daniel Osei"
+        Text 143px "AI research lead"
+      Column 189px: background #15151d
+        Text 143px "PL"
+        Text 143px "Petra Lindqvist"
+        Text 143px "Design director, ex-studio"
+  Column 600px: background #f3eee1
+    Row 544px: 1 side by side, stacked on phones
+      Column 544px
+        Text 544px "Admit one — Vol. 04"
+        Heading h3 544px "Midnight Circuit"
+        Text 544px "Prepared for {{first_name}} · Hacker Pass — full 24 hours"
+        Text 544px "11–12 December 2026 · The Old Projection House, MG Road"
+        Text 544px "MC4-2026-0117 · Row F · Seat 12"
+  Column 600px
+    Divider 600px
+    Row 600px: 7 side by side
+      Text "Schedule (https://midnightcircuit.example.com/#schedule)"
+      Text: desktop only "·"
+      Text "Tracks (https://midnightcircuit.example.com/#tracks)"
+      Text: desktop only "·"
+      Text "FAQ (https://midnightcircuit.example.com/#faq)"
+      Text: desktop only "·"
+      Text "Code of conduct (https://midnightcircuit.example.com/#conduct)"
+    Row 600px: 3 side by side
+      Link 30px "[Instagram]" → https://instagram.com
+      Link 30px "[LinkedIn]" → https://linkedin.com
+      Link 30px "[YouTube]" → https://youtube.com
+    Text 600px "Midnight Circuit is a fictional sample event. This kit is a template — swap the…"
+
+== Email — render() ==
+invite.html 34921 bytes · invite.txt 2261 bytes
+info email/more-checks at root: Email client checks (what classic Outlook, Gmail, Apple Mail and other clients remove or change, from caniemail's tables and captures of the real clients) come from @hyper-elements/email-clients Fix: npm i @hyper-elements/email-clients, then validate(email, { plugins: [await emailClients()] })
+
+== Email — client previews (Outlook / Gmail / Apple Mail, hero inlined) ==
+clients/outlook.html
+clients/gmail.html
+clients/gmail.mac.html
+clients/apple-mail.html
+clients/apple-mail.iphone.html
+info email/outlook-degraded at root.children[1].style.borderRadius: borderRadius on this Image in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[2].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[2].children[5].children[0].style.borderRadius: borderRadius on this Button in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/degraded at root.children[2].children[5].children[0].hover: hover on this Button in some email clients: no change (where it shows, keyboard focus gets it too) [outlook] See: https://www.caniemail.com/features/css-pseudo-class-hover/
+info email/outlook-degraded at root.children[2].children[5].children[1].style.borderRadius: borderRadius on this Button in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/degraded at root.children[2].children[5].children[1].hover: hover on this Button in some email clients: no change (where it shows, keyboard focus gets it too) [outlook] See: https://www.caniemail.com/features/css-pseudo-class-hover/
+info email/outlook-degraded at root.children[4].children[2].children[0].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[4].children[2].children[1].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[4].children[2].children[2].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[5].children[2].children[0].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[5].children[2].children[1].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[5].children[2].children[2].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[6].style.borderRadius: borderRadius on this Column in classic Outlook: square corners [outlook] See: https://www.caniemail.com/features/css-border-radius/
+info email/outlook-degraded at root.children[0].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[0].children[1].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[5].children[0].style.letterSpacing: letterSpacing on this Button in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[2].children[5].children[1].style.letterSpacing: letterSpacing on this Button in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[1].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[2].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[3].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[4].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[5].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[6].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[3].children[2].children[7].children[0].style.letterSpacing: letterSpacing on this TableCell in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[2].children[0].children[0].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[2].children[1].children[0].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[4].children[2].children[2].children[0].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[2].children[0].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[2].children[1].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[5].children[2].children[2].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[6].children[0].children[0].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[6].children[0].children[0].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+info email/outlook-degraded at root.children[6].children[0].children[0].children[4].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
+warning email/size at root: The email is 126 KB; Gmail clips a message after 100 KB ("[Message clipped]") [gmail] Fix: shorten the email, or move long sections to a page: what follows the clip is behind a link
+
+== Page — render() ==
+
+page.html 112988 bytes
+
+
+== Document — render() + renderPdf() ==
+
+ticket.html 27286 bytes
+ticket.pdf 24865 bytes
