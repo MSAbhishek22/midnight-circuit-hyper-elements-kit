@@ -48,7 +48,7 @@ say(formatDiagnostics(card.diagnostics));
    it): inlining it as a data URI pushes the file to ~125 KB and Gmail clips
    messages after 100 KB. The previews below use an inlined copy so each
    client preview is self-contained. */
-const email = <InviteEmail heroSrc="https://midnightcircuit.example.com/hero.png" />;
+const email = <InviteEmail heroSrc="https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/hero.png" />;
 const emailInline = <InviteEmail heroSrc={heroSrc} />;
 say("\n== Email — validate() ==");
 const plain = validate(email);

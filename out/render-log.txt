@@ -59,7 +59,7 @@ Email 600px: background #0a0a10
   Row 600px: 2 side by side, stacked on phones
     Text 372px "Midnight Circuit · Vol. 04"
     Text 212px "Bengaluru — Est. 2023"
-  Image 600px [A night skyline under a crescent moon, drawn for Midnight Circuit] https://midnightcircuit.example.com/hero.png
+  Image 600px [A night skyline under a crescent moon, drawn for Midnight Circuit] https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/hero.png
   Column 600px: background #15151d
     Text 538px "Registrations open"
     Heading h1 538px "Midnight Circuit"
@@ -68,7 +68,7 @@ Email 600px: background #0a0a10
     Text 538px "One venue, one night, no retakes. Three hundred hackers walk into a century-old…"
     Row 538px: 2 side by side, stacked on phones
       Button 262px: background #e3a82b "Claim your seat" → https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/page.html
-      Button 264px: background rgba(255, 255, 255, 0.06) "Watch last year" → https://midnightcircuit.example.com
+      Button 264px: background rgba(255, 255, 255, 0.06) "Watch last year" → https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/page.html
   Column 600px
     Text 600px "The running order"
     Heading h2 600px "Seven frames, 24 hours"
@@ -144,13 +144,13 @@ Email 600px: background #0a0a10
   Column 600px
     Divider 600px
     Row 600px: 7 side by side
-      Text "Schedule (https://midnightcircuit.example.com/#schedule)"
+      Text "Schedule (https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/ou…"
       Text: desktop only "·"
-      Text "Tracks (https://midnightcircuit.example.com/#tracks)"
+      Text "Tracks (https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/…"
       Text: desktop only "·"
-      Text "FAQ (https://midnightcircuit.example.com/#faq)"
+      Text "FAQ (https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/pag…"
       Text: desktop only "·"
-      Text "Code of conduct (https://midnightcircuit.example.com/#conduct)"
+      Text "Code of conduct (https://msabhishek22.github.io/midnight-circuit-hyper-elements…"
     Row 600px: 3 side by side
       Link 30px "[Instagram]" → https://instagram.com
       Link 30px "[LinkedIn]" → https://linkedin.com
@@ -158,7 +158,7 @@ Email 600px: background #0a0a10
     Text 600px "Midnight Circuit is a fictional sample event. This kit is a template — swap the…"
 
 == Email — render() ==
-invite.html 34957 bytes · invite.txt 2297 bytes
+invite.html 35213 bytes · invite.txt 2518 bytes
 info email/more-checks at root: Email client checks (what classic Outlook, Gmail, Apple Mail and other clients remove or change, from caniemail's tables and captures of the real clients) come from @hyper-elements/email-clients Fix: npm i @hyper-elements/email-clients, then validate(email, { plugins: [await emailClients()] })
 
 == Email — client previews (Outlook / Gmail / Apple Mail, hero inlined) ==
@@ -208,14 +208,14 @@ info email/outlook-degraded at root.children[5].children[2].children[2].children
 info email/outlook-degraded at root.children[6].children[0].children[0].children[0].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
 info email/outlook-degraded at root.children[6].children[0].children[0].children[1].style.letterSpacing: letterSpacing on this Heading in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
 info email/outlook-degraded at root.children[6].children[0].children[0].children[4].style.letterSpacing: letterSpacing on this Text in classic Outlook: normal spacing: Word keeps letter spacing but doesn't draw it [outlook]
-warning email/size at root: The email is 126 KB; Gmail clips a message after 100 KB ("[Message clipped]") [gmail] Fix: shorten the email, or move long sections to a page: what follows the clip is behind a link
+warning email/size at root: The email is 127 KB; Gmail clips a message after 100 KB ("[Message clipped]") [gmail] Fix: shorten the email, or move long sections to a page: what follows the clip is behind a link
 
 == Page — render() ==
 
-page.html 117423 bytes (incl. hero3d splice)
+page.html 117669 bytes (incl. hero3d splice)
 
 
 == Document — render() + renderPdf() ==
 
-ticket.html 27286 bytes
-ticket.pdf 24874 bytes
+ticket.html 27339 bytes
+ticket.pdf 24777 bytes

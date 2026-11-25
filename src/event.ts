@@ -12,7 +12,7 @@ export const event = {
   doors: "Fri 11 Dec 2026 · Doors 18:00",
   runs: "11–12 December 2026",
   ends: "Demos from 18:00, Sat 12 Dec",
-  url: "https://midnightcircuit.example.com",
+  url: "https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/page.html",
   registerUrl: "https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/page.html",
   prizePool: "₹4,00,000",
   hackers: "300 hackers · 75 teams · 24 hours",

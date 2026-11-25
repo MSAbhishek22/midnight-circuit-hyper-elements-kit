@@ -190,14 +190,14 @@ export function EventPage({ heroSrc }: { heroSrc: string }) {
           <MetaLine align="center" />
           <Row style={{ gap: 12, justifyContent: "center" }}>
             <Button href={event.registerUrl}>Claim your seat</Button>
-            <Button href={`${event.url}/#schedule`} variant="ghost">
+            <Button href={`${event.url}#schedule`} variant="ghost">
               See the running order
             </Button>
           </Row>
         </Column>
       </Section>
 
-      <Section style={{ padding: [16, 0, 40] }}>
+      <Section id="schedule" style={{ padding: [16, 0, 40] }}>
         <Row style={{ gap: 28 }}>
           <Column style={{ gap: 14, flex: 1 }}>
             <Kicker>How it works</Kicker>
@@ -220,7 +220,7 @@ export function EventPage({ heroSrc }: { heroSrc: string }) {
         </Row>
       </Section>
 
-      <Section style={{ padding: [16, 0, 40] }}>
+      <Section id="tracks" style={{ padding: [16, 0, 40] }}>
         <Column style={{ gap: 14 }}>
           <Kicker>Prize tracks</Kicker>
           <Heading level={2}>Three tracks, {event.prizePool}</Heading>
@@ -313,14 +313,13 @@ export function TicketDocument() {
         </Text>
         <Text style={{ fontSize: 12, color: token("colors.muted") }}>
           Tickets are transferable until 9 Dec 2026 from your registration page. The venue is
-          step-free; tell us anything you need at hello@midnightcircuit.example.com and we
-          will make it happen.
+          step-free; tell us anything you need and we will make it happen.
         </Text>
       </Column>
 
       <PageFooter style={{ padding: [14, 0, 0] }}>
         <Row style={{ justifyContent: "space-between" }}>
-          <Text style={{ fontSize: 11, color: token("colors.muted") }}>midnightcircuit.example.com</Text>
+          <Text style={{ fontSize: 11, color: token("colors.muted") }}>msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/page.html</Text>
           <Text style={{ fontSize: 11, color: token("colors.muted") }}>
             Page <PageNumber /> of <PageNumber total />
           </Text>

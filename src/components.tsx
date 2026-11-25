@@ -160,10 +160,10 @@ export function FooterBlock() {
       <Divider />
       <Menu
         items={[
-          { text: "Schedule", href: `${event.url}/#schedule` },
-          { text: "Tracks", href: `${event.url}/#tracks` },
-          { text: "FAQ", href: `${event.url}/#faq` },
-          { text: "Code of conduct", href: `${event.url}/#conduct` },
+          { text: "Schedule", href: `${event.url}#schedule` },
+          { text: "Tracks", href: `${event.url}#tracks` },
+          { text: "FAQ", href: `${event.url}#faq` },
+          { text: "Code of conduct", href: `${event.url}#conduct` },
         ]}
         separator="·"
         style={{ justifyContent: "center", color: token("colors.muted") }}
