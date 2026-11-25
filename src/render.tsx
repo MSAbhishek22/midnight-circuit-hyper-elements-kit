@@ -4,6 +4,7 @@ import { renderImage } from "@hyper-elements/react/image";
 import { renderPdf } from "@hyper-elements/react/pdf";
 import { emailClients, renderInEmailClients } from "@hyper-elements/email-clients";
 import { EventPage, HeroArt, InviteEmail, SocialCard, TicketDocument } from "./templates";
+import { HERO3D_BODY, HERO3D_STYLE } from "./hero3d";
 
 const font = (file: string) => readFile(new URL(`../assets/fonts/${file}`, import.meta.url));
 
@@ -84,8 +85,15 @@ say("\n== Page — render() ==");
 const page = <EventPage heroSrc={heroSrc} />;
 say(formatDiagnostics(validate(page).diagnostics));
 const pageOut = await render(page);
-await writeFile(out("page.html"), pageOut.html);
-say(`page.html ${pageOut.html.length} bytes`);
+/* Splice the 3D hero (src/hero3d.ts) into the generated page: its styles go
+   in <head>, and the scene markup goes inside the masthead section, right
+   before its closing tag — the same spot it occupies on the shipped page. */
+let pageHtml = pageOut.html.replace("</head>", `<style>\n${HERO3D_STYLE}\n</style>\n</head>`);
+const mastheadEnd = pageHtml.indexOf("</section>");
+if (mastheadEnd === -1) throw new Error("page render: masthead </section> not found for hero3d splice");
+pageHtml = pageHtml.slice(0, mastheadEnd) + HERO3D_BODY + "\n" + pageHtml.slice(mastheadEnd);
+await writeFile(out("page.html"), pageHtml);
+say(`page.html ${pageHtml.length} bytes (incl. hero3d splice)`);
 say(formatDiagnostics(pageOut.diagnostics));
 
 /* 4 — The ticket document: print HTML + a real PDF. */

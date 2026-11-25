@@ -67,7 +67,7 @@ Email 600px: background #0a0a10
     Text 538px "Fri 11 Dec 2026 · Doors 18:00 · The Old Projection House, MG Road / 300 hackers…"
     Text 538px "One venue, one night, no retakes. Three hundred hackers walk into a century-old…"
     Row 538px: 2 side by side, stacked on phones
-      Button 262px: background #e3a82b "Claim your seat" → https://midnightcircuit.example.com/register
+      Button 262px: background #e3a82b "Claim your seat" → https://msabhishek22.github.io/midnight-circuit-hyper-elements-kit/out/page.html
       Button 264px: background rgba(255, 255, 255, 0.06) "Watch last year" → https://midnightcircuit.example.com
   Column 600px
     Text 600px "The running order"
@@ -158,7 +158,7 @@ Email 600px: background #0a0a10
     Text 600px "Midnight Circuit is a fictional sample event. This kit is a template — swap the…"
 
 == Email — render() ==
-invite.html 34921 bytes · invite.txt 2261 bytes
+invite.html 34957 bytes · invite.txt 2297 bytes
 info email/more-checks at root: Email client checks (what classic Outlook, Gmail, Apple Mail and other clients remove or change, from caniemail's tables and captures of the real clients) come from @hyper-elements/email-clients Fix: npm i @hyper-elements/email-clients, then validate(email, { plugins: [await emailClients()] })
 
 == Email — client previews (Outlook / Gmail / Apple Mail, hero inlined) ==
@@ -212,10 +212,10 @@ warning email/size at root: The email is 126 KB; Gmail clips a message after 100
 
 == Page — render() ==
 
-page.html 112988 bytes
+page.html 117423 bytes (incl. hero3d splice)
 
 
 == Document — render() + renderPdf() ==
 
 ticket.html 27286 bytes
-ticket.pdf 24865 bytes
+ticket.pdf 24874 bytes
